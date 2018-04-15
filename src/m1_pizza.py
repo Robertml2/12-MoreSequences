@@ -239,8 +239,9 @@ def draw_points_on_circle(window, circle, number_of_points, color):
     # ------------------------------------------------------------------
     circle.attach_to(window)
 
+
     for k in range(number_of_points):
-        circle = rg.Circle(generate_points_on_circle(circle, k+1), 10)
+        generate_points_on_circle(circle, 10)
         circle.attach_to(window)
         window.render()
 
