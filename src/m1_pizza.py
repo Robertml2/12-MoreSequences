@@ -28,9 +28,9 @@ def main():
     # ------------------------------------------------------------------
 
     run_test_generate_points_on_circle()
-    #run_test_draw_points_on_circle()
-    #run_test_pizza()
-    #run_test_polygon()
+    run_test_draw_points_on_circle()
+    run_test_pizza()
+    run_test_polygon()
     run_test_fancy_polygon()
 
 
